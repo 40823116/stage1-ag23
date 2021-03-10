@@ -46,7 +46,7 @@
 </v>
 </vnodes>
 <tnodes>
-<t tx="123.20210304153919.1">&lt;section&gt;
+<t tx="123.20210304153919.1"> &lt;section&gt;
     &lt;h2&gt;W2本周進度&lt;/h2&gt;
 &lt;/section&gt;
 </t>
@@ -81,9 +81,9 @@ coppeliasim進行模擬,想找出有
 &lt;small&gt;&lt;p&gt;後來使用不同的方法 
 左上為裝放飼料的罐子,右上為旋轉圓盤,下圖為置入罐子內的攪拌片,攪拌後飼料會更容易進入洞中,旋轉的圓盤則是可以控制飼料落下的飼料數量。&lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="/images/W2-2-1.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W2-2-2.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W2-2-3.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://github.com/40823131/cd2021ag23/blob/main/images/W2-2-1.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://github.com/40823131/cd2021ag23/blob/main/images/W2-2-2.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://github.com/40823131/cd2021ag23/blob/main/images/W2-2-3.png" alt="" width="400" height="200"&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210304153952.2">&lt;section&gt;
@@ -97,7 +97,7 @@ coppeliasim進行模擬,想找出有
 再由指針送入洞裡,落入下方的
 軌道,傳輸至飼料盆中。&lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="/images/W2-1.png" alt="" width="500" height="230"&gt;
+&lt;img src="https://github.com/40823131/cd2021ag23/blob/main/images/W2-1.png" alt="" width="500" height="230"&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210304154003.1">&lt;section&gt;
