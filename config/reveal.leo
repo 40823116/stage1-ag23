@@ -97,7 +97,7 @@ coppeliasim進行模擬,想找出有
 再由指針送入洞裡,落入下方的
 軌道,傳輸至飼料盆中。&lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="https://github.com/40823131/cd2021ag23/blob/main/images/W2-1.png" alt="" width="500" height="230"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-1.png" alt="" width="500" height="230"&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210304154003.1">&lt;section&gt;
