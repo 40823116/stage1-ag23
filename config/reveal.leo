@@ -60,7 +60,7 @@ coppeliasim進行模擬,想找出有
 爭取在最後步驟前有更多時間可
 以更接近理想。&lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="/images/W2-5.png" alt="" width="600" height="260"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-5.png" alt="" width="600" height="260"&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210304153951.1">&lt;section&gt;
@@ -70,9 +70,9 @@ coppeliasim進行模擬,想找出有
     &lt;small&gt;&lt;p&gt;左上圖為飼料進入軌道前代位區,右上圖是上圖的上視圖,
 右上圖的方孔及左上圖下方的方孔是運輸軌道放置的區域,下圖的是把飼料刮入運輸軌道的刮片。&lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="/images/W2-3-1.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W2-3-2.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W2-3-3.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-3-1.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-3-2.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-3-3.png" alt="" width="400" height="200"&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210304153952.1">&lt;section&gt;
@@ -81,9 +81,9 @@ coppeliasim進行模擬,想找出有
 &lt;small&gt;&lt;p&gt;後來使用不同的方法 
 左上為裝放飼料的罐子,右上為旋轉圓盤,下圖為置入罐子內的攪拌片,攪拌後飼料會更容易進入洞中,旋轉的圓盤則是可以控制飼料落下的飼料數量。&lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="https://github.com/40823131/cd2021ag23/blob/main/images/W2-2-1.png" alt="" width="400" height="200"&gt;
-&lt;img src="https://github.com/40823131/cd2021ag23/blob/main/images/W2-2-2.png" alt="" width="400" height="200"&gt;
-&lt;img src="https://github.com/40823131/cd2021ag23/blob/main/images/W2-2-3.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-2-1.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-2-2.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-2-3.png" alt="" width="400" height="200"&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210304153952.2">&lt;section&gt;
@@ -110,7 +110,7 @@ coppeliasim進行模擬,想找出有
 寵物的食物容器,邊緣圓
 角使寵物進食時不易受傷。&lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="/images/W2-4.png" alt="" width="600" height="260"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W2-4.png" alt="" width="600" height="260"&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210310222611.1">&lt;!-- Example of nested vertical slides --&gt;
@@ -128,21 +128,21 @@ coppeliasim進行模擬,想找出有
     &lt;small&gt;&lt;p&gt;原本是由三個元件組成的上部飼料罐，後來經由模擬後發現過於繁瑣，且容易發生問題，後來決定改動攪拌的刀片，以及移除薄片，採用另一種方式讓飼料更為容易掌控，降低風險機率。
 &lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="/images/W3-1-1.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W3-1-2.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W3-1-3.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-1-1.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-1-2.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-1-3.png" alt="" width="400" height="200"&gt;
 &lt;/section&gt;</t>
 <t tx="123.20210310225840.2">&lt;section&gt;
 
     &lt;h4&gt;校正後的飼料罐&lt;/h4&gt;
     
 
-&lt;img src="/images/W3-2-1.png" alt="" width="350" height="150"&gt;
-&lt;img src="/images/W3-2-2.png" alt="" width="350" height="150"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-2-1.png" alt="" width="350" height="150"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-2-2.png" alt="" width="350" height="150"&gt;
 
 &lt;small&gt;&lt;p&gt;攪拌部件在底部改為齒狀，且增加為六片，加裝前各個攪拌部件的運動軌跡非常紊亂，改動後其整齊度及穩定性提高了許多。&lt;/p&gt;&lt;/small&gt;
 
-&lt;img src="/images/W3-2-3.png" alt="" width="350" height="150"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-2-3.png" alt="" width="350" height="150"&gt;
 
 &lt;small&gt;&lt;p&gt;下方的方孔則加裝了一個擋片，在模擬中增加一根軸，固定於擋片上，讓他可以被攪拌部件翻動，使飼料從縫隙中掉落。&lt;/p&gt;&lt;/small&gt;
 
@@ -151,8 +151,8 @@ coppeliasim進行模擬,想找出有
 
     &lt;h4&gt;軸的變更&lt;/h4&gt;
     
-    &lt;img src="/images/W3-3-1.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W3-3-2.png" alt="" width="400" height="200"&gt;
+    &lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-3-1.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-3-2.png" alt="" width="400" height="200"&gt;
 
     &lt;small&gt;&lt;p&gt;與前者相比，軸的變化相對之下較少，在模擬的過程中，為了能夠讓coppeliasim將各部件判定為個體拆解及作動，將連接處都切斷0.6mm。&lt;/p&gt;&lt;/small&gt;
 
@@ -162,8 +162,8 @@ coppeliasim進行模擬,想找出有
 
     &lt;h4&gt;飼料代位區的變更&lt;/h4&gt;
     
-    &lt;img src="/images/W3-4-1.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W3-4-2.png" alt="" width="400" height="200"&gt;
+    &lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-4-1.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-4-2.png" alt="" width="400" height="200"&gt;
     
     &lt;small&gt;&lt;p&gt;左方為變更前的刮片，在模擬的過程中發現異常，刮片會以不規律的方向轉動，後來發現是有餘料未完整切除，為了避免此錯誤再次發生，將原線設計之攪拌部件進行大改造，並以加裝套筒來增加刮片的安定性。&lt;/p&gt;&lt;/small&gt;
 
@@ -172,8 +172,8 @@ coppeliasim進行模擬,想找出有
 
     &lt;h4&gt;底座飼料槽的變更&lt;/h4&gt;
     
-    &lt;img src="/images/W3-5-1.png" alt="" width="400" height="200"&gt;
-&lt;img src="/images/W3-5-2.png" alt="" width="400" height="200"&gt;
+    &lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-5-1.png" alt="" width="400" height="200"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-5-2.png" alt="" width="400" height="200"&gt;
     &lt;small&gt;&lt;p&gt;左圖為變更前的設計，用了較大的圓角，目的為防止寵物被盆口刮傷，模擬後卻因為前方檔片過低，飼料會滑出盆外，因此我們把圓角的半徑縮小，既不會使寵物受傷，
 又能變相提高檔片的高度，達到一舉兩得的結果。&lt;/p&gt;&lt;/small&gt;
 
@@ -183,7 +183,7 @@ coppeliasim進行模擬,想找出有
 
     &lt;h3&gt;模擬修改後之最終成品&lt;/h3&gt;
     
-&lt;img src="/images/W3-6.png" alt="" width="500" height="230"&gt;
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-6.png" alt="" width="500" height="230"&gt;
     &lt;p&gt;W4想做有關這次作業的心得，以及探討這次過程中的產生的協同問題和整理這次專案每周進度的整合。
 &lt;/p&gt;
 
