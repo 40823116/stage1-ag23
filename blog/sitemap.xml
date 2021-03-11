@@ -4,71 +4,71 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/</loc>
-<lastmod>2021-03-11T01:51:16-00:00</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/</loc>
+<lastmod>2021-03-11T15:27:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/archives.html</loc>
-<lastmod>2021-03-11T01:51:16-00:00</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/archives.html</loc>
+<lastmod>2021-03-11T15:27:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/tags.html</loc>
-<lastmod>2021-03-11T01:51:16-00:00</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/tags.html</loc>
+<lastmod>2021-03-11T15:27:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/categories.html</loc>
-<lastmod>2021-03-11T01:51:16-00:00</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/categories.html</loc>
+<lastmod>2021-03-11T15:27:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/pages/about/</loc>
-<lastmod>2021-03-04T14:50:42+08:00</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/pages/about/</loc>
+<lastmod>2021-03-11T15:12:40+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/40823131 cd2021ag23 W3.html</loc>
-<lastmod>2021-03-11T01:36:32+08:00</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/40823131 stage1-ag23 W3.html</loc>
+<lastmod>2021-03-11T15:26:26+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/40823131 cd2021ag23 W2.html</loc>
-<lastmod>2021-03-11T01:36:30+08:00</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/40823131 stage1-ag23 W2.html</loc>
+<lastmod>2021-03-11T15:26:26+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/category/misc.html</loc>
-<lastmod>2021-03-11T01:36:32+08:06</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/category/misc.html</loc>
+<lastmod>2021-03-11T15:26:26+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/tag/cd2021ag23.html</loc>
-<lastmod>2021-03-11T01:36:32+08:06</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/tag/stage1-ag23.html</loc>
+<lastmod>2021-03-11T15:26:26+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823131.github.io/cd2021ag23/blog/author/40823131.html</loc>
-<lastmod>2021-03-11T01:36:32+08:06</lastmod>
+<loc>https://40823131.github.io/stage1-ag23/blog/author/40823131.html</loc>
+<lastmod>2021-03-11T15:26:26+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
