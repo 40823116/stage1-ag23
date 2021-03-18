@@ -136,7 +136,7 @@ coppeliasim進行模擬,想找出有
 <t tx="123.20210310225840.1">&lt;section&gt;
 
     &lt;h4&gt;經由模擬後進行變更&lt;/h4&gt;
-    &lt;small&gt;&lt;p&gt;原本是由三個元件組成的上部飼料罐，後來經由模擬後發現過於繁瑣，且容易發生問題，後來決定改動攪拌的刀片，以及移除薄片，採用另一種方式讓飼料更為容易掌控，降低風險機率。
+    &lt;small&gt;&lt;p&gt;原本是由三個元件組成的上部飼料罐，後來經由模擬後發現過於繁瑣，且容易發生問題，後來決定改動攪拌的攪拌部件，以及移除薄片，採用另一種方式讓飼料更為容易掌控，降低風險機率。
 &lt;/p&gt;&lt;/small&gt;
 
 &lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-1-1.png" alt="" width="400" height="200"&gt;
@@ -155,7 +155,7 @@ coppeliasim進行模擬,想找出有
 
 &lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-2-3.png" alt="" width="350" height="150"&gt;
 
-&lt;small&gt;&lt;p&gt;下方的方孔則加裝了一個擋片，在模擬中增加一根軸，固定於擋片上，讓他可以被攪拌部件翻動，使飼料從縫隙中掉落。&lt;/p&gt;&lt;/small&gt;
+&lt;small&gt;&lt;p&gt;下方的方孔則加裝了一個擋片，在模擬中增加一根軸，固定於擋片上，讓他可以被攪拌部件翻動，使飼料有規律性的從縫隙中掉落。&lt;/p&gt;&lt;/small&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210310225841.1">&lt;section&gt;
@@ -176,7 +176,7 @@ coppeliasim進行模擬,想找出有
     &lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-4-1.png" alt="" width="400" height="200"&gt;
 &lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-4-2.png" alt="" width="400" height="200"&gt;
     
-    &lt;small&gt;&lt;p&gt;左方為變更前的刮片，在模擬的過程中發現異常，刮片會以不規律的方向轉動，後來發現是有餘料未完整切除，為了避免此錯誤再次發生，將原線設計之攪拌部件進行大改造，並以加裝套筒來增加刮片的安定性。&lt;/p&gt;&lt;/small&gt;
+    &lt;small&gt;&lt;p&gt;左方為變更前的攪拌部件，在模擬的過程中發現異常，攪拌部件會向不規律的方向跳動，後來發現是有餘料未完整切除，為了避免此錯誤再次發生，將原線設計之攪拌部件進行大改造，並以加裝套筒來增加攪拌部件的安定性。&lt;/p&gt;&lt;/small&gt;
 
 &lt;/section&gt;</t>
 <t tx="123.20210310225842.1">&lt;section&gt;
@@ -195,7 +195,7 @@ coppeliasim進行模擬,想找出有
     &lt;h3&gt;模擬修改後之最終成品&lt;/h3&gt;
     
 &lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/W3-6.png" alt="" width="500" height="230"&gt;
-    &lt;p&gt;W4想做有關這次作業的心得，以及探討這次過程中的產生的協同問題和整理這次專案每周進度的整合。
+    &lt;p&gt;W4將會寫出有關這次作業的心得，以及探討這次過程中的產生的協同問題和整理這次專案每周進度的整合。
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
@@ -216,7 +216,7 @@ coppeliasim進行模擬,想找出有
 &lt;/section&gt;</t>
 <t tx="123.20210318133234.2">&lt;section&gt;
 
-    &lt;h4&gt;專案心得&lt;/h4&gt;
+    &lt;h3&gt;專案心得&lt;/h3&gt;
     &lt;p&gt;此次的專案為雙人協同專案，在過程中也遇到許多協同的問題，如下。&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="123.20210318134509.1">&lt;!-- Example of nested vertical slides --&gt;
