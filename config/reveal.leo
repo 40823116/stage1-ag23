@@ -26,6 +26,7 @@
 <v t="123.20210304153951.1"><vh>slide 2-4</vh></v>
 <v t="123.20210304154003.1"><vh>slide 2-5</vh></v>
 <v t="123.20210304153949.1"><vh>slide 2-6</vh></v>
+<v t="123.20210318143703.1"><vh>slide 2-7</vh></v>
 </v>
 <v t="123.20210310222611.1"><vh>slide 3</vh>
 <v t="123.20210310225824.1"><vh>slide 3-1</vh></v>
@@ -260,6 +261,12 @@ coppeliasim進行模擬,想找出有
     &lt;h3&gt;最終模擬影片&lt;/h3&gt;
     
 &lt;p&gt;&lt;iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/xWx55ySJWAk"&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="123.20210318143703.1">&lt;section&gt;
+
+    &lt;h2&gt;繪圖影片&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/UcWlpYrTS5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;/section&gt;</t>
 <t tx="leo.20180902120523.1"></t>
