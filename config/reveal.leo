@@ -35,6 +35,7 @@
 <v t="123.20210310225841.2"><vh>slide 3-5</vh></v>
 <v t="123.20210310225842.1"><vh>slide 3-6</vh></v>
 <v t="123.20210311002742.1"><vh>slide 3-7</vh></v>
+<v t="123.20210318140738.1"><vh>slide 3-8</vh></v>
 </v>
 <v t="123.20210318133209.1"><vh>slide 4</vh>
 <v t="123.20210318133231.1"><vh>slide 4-1</vh></v>
@@ -254,6 +255,13 @@ coppeliasim進行模擬,想找出有
 
 
 </t>
+<t tx="123.20210318140738.1">&lt;section&gt;
+
+    &lt;h3&gt;最終模擬影片&lt;/h3&gt;
+    
+&lt;p&gt;&lt;iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/xWx55ySJWAk"&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;/section&gt;</t>
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120538.1"></t>
