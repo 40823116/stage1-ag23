@@ -36,6 +36,16 @@
 <v t="123.20210310225842.1"><vh>slide 3-6</vh></v>
 <v t="123.20210311002742.1"><vh>slide 3-7</vh></v>
 </v>
+<v t="123.20210318133209.1"><vh>slide 4</vh>
+<v t="123.20210318133231.1"><vh>slide 4-1</vh></v>
+<v t="123.20210318133232.1"><vh>slide 4-2</vh></v>
+</v>
+<v t="123.20210318134509.1"><vh>slide 5</vh>
+<v t="123.20210318133234.2"><vh>slide 5-1</vh></v>
+<v t="123.20210318134624.1"><vh>slide 5-2</vh></v>
+<v t="123.20210318134829.1"><vh>slide 5-3</vh></v>
+<v t="123.20210318134959.1"><vh>slide 5-4</vh></v>
+</v>
 <v t="leo.20200818195800.1"><vh>slide 31</vh></v>
 </v>
 </v>
@@ -188,6 +198,63 @@ coppeliasim進行模擬,想找出有
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
+<t tx="123.20210318133209.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section&gt;
+    @others
+&lt;/section&gt;</t>
+<t tx="123.20210318133231.1">&lt;section&gt;
+    &lt;h2&gt;W4進度&lt;/h2&gt;
+&lt;/section&gt;</t>
+<t tx="123.20210318133232.1">&lt;section&gt;
+
+    &lt;h4&gt;外觀調整&lt;/h4&gt;
+    &lt;small&gt;&lt;p&gt;是設計給寵物的用具，想利用外觀上來吸引顧客的目光，看到紋路會聯想到自己家的寵物，進一步吸引顧客的目光。
+&lt;/p&gt;&lt;/small&gt;
+
+&lt;img src="https://raw.githubusercontent.com/40823131/cd2021ag23/main/images/w4.png" alt="" width="500" height="230"&gt;
+&lt;/section&gt;</t>
+<t tx="123.20210318133234.2">&lt;section&gt;
+
+    &lt;h4&gt;專案心得&lt;/h4&gt;
+    &lt;p&gt;此次的專案為雙人協同專案，在過程中也遇到許多協同的問題，如下。&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="123.20210318134509.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section&gt;
+    @others
+&lt;/section&gt;</t>
+<t tx="123.20210318134624.1">&lt;section&gt;
+
+
+&lt;h3&gt;分組網頁的編輯與推送&lt;/h3&gt;
+&lt;small&gt;&lt;p&gt;
+一開始我選用hamachi創建虛擬區域網路，讓組員連接上虛擬區網，得以編輯分組網頁，但同時編輯時會發生些許錯誤，後期學到了使用git remote方式，得到倉儲推送許可權後組長或組員皆可對網頁進行改版並推送。
+
+
+&lt;/p&gt;&lt;/small&gt;
+
+&lt;/section&gt;</t>
+<t tx="123.20210318134829.1">&lt;section&gt;
+
+
+&lt;h3&gt;繪圖&lt;/h3&gt;
+
+&lt;small&gt;&lt;p&gt;
+繪圖採用的軟體為Inventor，但也遭遇到了版本不相容的洗禮，組員使用的Inventor為2017版本，我的版本為2018版本，因此在工件編輯及修改可謂是嘗盡苦頭，因此往後的協同專題個人還是較偏向使用Onshape線上即可協同修改及操作，且無版本不相容之問題。&lt;/p&gt;&lt;/small&gt;
+
+&lt;/section&gt;    </t>
+<t tx="123.20210318134959.1">&lt;section&gt;
+
+
+&lt;h3&gt;心得&lt;/h3&gt;
+
+&lt;small&gt;&lt;p&gt;
+每週都有固定的推送專案週報(pdf,reveal,youtube videos)，遵照此原則按步就班，可以有系統的紀錄下每一週達到的事項及進度，同時也促進專案進度更有效率的完成，同時遇到困難時也可以透過交流、尋求組員的意見，進而從中獲得自己較為弱項方面的知識，也能得到許多新奇的idea，我想這就是協同的有利之處，比起一人的閉門造車，協同才能達到更多可能。&lt;/p&gt;&lt;/small&gt;
+
+&lt;/section&gt;    
+
+
+
+</t>
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120538.1"></t>
