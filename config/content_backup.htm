@@ -5,19 +5,78 @@
 <p>        第二位組員學號:<span>40823116 </span><span>| Repository: <a href="https://github.com/40823116/cd2021">40823116</a><span><span> </span>| Site:<span> </span></span><a href="https://40823116.github.io/cd2021">40823116</a></span></p>
 <p><span></span></p>
 <h1>W2</h1>
-<p>第二周進度</p>
+<h2>第二周進度</h2>
 <p>reveal簡報:<a href="https://40823131.github.io/stage1-ag23/reveal/index.html#/1">https://40823131.github.io/cd2021ag23/reveal/index.html#/1</a> </p>
 <p>pdf:<a href="https://drive.google.com/file/d/1DD5RwcGfvvoB28qkjeQd1254qlG_Dg8D/view?usp=sharing">https://drive.google.com/file/d/1DD5RwcGfvvoB28qkjeQd1254qlG_Dg8D/view?usp=sharing</a> </p>
 <p>youtube:</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/UcWlpYrTS5k" width="560"></iframe></p>
 <p></p>
 <h1>W3</h1>
-<p><span>第三周進度</span></p>
+<h2><span>第三周進度</span></h2>
 <p>reveal簡報:<a href="https://40823131.github.io/stage1-ag23/reveal/index.html#/2">https://40823131.github.io/cd2021ag23/reveal/index.html#/2</a> </p>
 <p>pdf:<a href="https://drive.google.com/file/d/1_WgEgyB2jomVCNfTDIRTWybTuTQjxkGc/view?usp=sharing">https://drive.google.com/file/d/1_WgEgyB2jomVCNfTDIRTWybTuTQjxkGc/view?usp=sharing</a> </p>
 <p><span>youtube:</span></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/xWx55ySJWAk" width="560"></iframe></p>
-<p><span></span></p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/xWx55ySJWAk" width="560"></iframe><span></span></p>
+<h1>W4</h1>
+<h2>利用程式方法更改影片檔名</h2>
+<p><span>使用python程式編寫進而達到更改影片名稱的效果，藉由最後修改時間做為線索來判斷組別，依此線索先利用程式取得各檔案最後修改時間，將取得的時間加入檔名前端進行排序，最後再進行檔名修整，修整為所要的格式。 1.取得最後修改時間，將時間加入檔頭後，放入串列。 2.使用串列排序，排列後更名(階段性更名，此步驟重點為順序)。 3.更改為最終需要的檔名格式。</span></p>
+<p><span>程式碼如下。</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import os
+#sorted:排序。
+def renameFilesAndSortedByTime(dirPath):
+    #建立空串列。
+    newlist = []
+    #獲取檔名列表。
+    files = os.listdir(dirPath)
+    #獲取新增修改時間的檔名列表。
+    for j in files:
+        #獲取從1970年1月1日上午12時00分到檔案最後修改的UTC時間總共經過多少秒。
+        createTime = os.path.getmtime(dirPath + j)
+        # 將createTime中取得的秒數加入文件名稱前方，並加入串列以利排序。
+        newlist.append(str(int(createTime)) + "-" + j)
+ 
+    # 將串列進行排序
+    newlist = sorted(newlist)
+    #印出串列
+    print(newlist)
+    # range()內的數字經由len(newlist)決定
+    #len()主要用來傳回串列參數L的長度，也就是包含幾個元素。
+    for i in range(len(newlist)):
+        #newlist[i][11:]
+        #[i]的意思為串列中的第i項。
+        #[11:]是用來取得檔案名稱從第12字元開始到最後字元的檔名。
+        #使用上述兩個方法再配合迴圈可取得串列內所有檔案的舊檔名。
+        oldName = newlist[i][11:]
+ 
+        # 將秒數部分修改為序號，得到新的文件名。
+        # 一定要按照下列寫法否則後期排序更名會出現錯誤。
+        newName = newlist[i][11:]
+        if (i + 1) &lt; 10:
+            newName = '00' + str(i + 1) + newName
+        elif (i + 1) &gt; 9 and (i + 1) &lt; 100:
+            newName = '0' + str(i + 1) + newName
+        else:
+            newName = str(i + 1) + newName
+        # dirpath為目標文件資料夾。
+        # 重命名文件照修改時間加序号在前方。
+        os.rename(dirPath + oldName, dirPath + newName)
+ 
+if __name__ == '__main__':
+    renameFilesAndSortedByTime("C:/Users/Administrator/Downloads/2021-03_2a_stage1/")
+    print("rename ok!")
+    path = 'C:/Users/Administrator/Downloads/2021-03_2a_stage1/'
+    #轉入目標文件夾。
+    file=os.listdir(path)
+    print(file) #印出讀取到的檔名稱。
+    n=0 #設定初始值。
+    for i in file: #因為資料夾裡面的檔案都要重新更換名稱。
+        oldname=path+file[n] #path為路徑名稱，[n]表示第n個檔案。
+        newname=path+'cd2021_2a_'+str(n+1)+'.mp4'
+        os.rename(oldname,newname)
+        print(oldname+'&gt;'+newname) 
+        n=n+1</pre>
+<p><span>youtube:</span></p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/8cxVGoyUiJM" title="YouTube video player" width="560"></iframe></p>
 <h1>40823131每周進度</h1>
 <h2>Week2</h2>
 <h3>議題(一)</h3>
@@ -48,4 +107,59 @@
 <p><strong>繪圖</strong></p>
 <p>繪圖採用的軟體為Inventor，但也遭遇到了版本不相容的洗禮，組員使用的Inventor為2017版本，我的版本為2018版本，因此在工件編輯及修改可謂是嘗盡苦頭，因此往後的協同專題個人還是較偏向使用Onshape線上即可協同修改及操作，且無版本不相容之問題。</p>
 <p>    每週都有固定的推送專案週報(pdf,reveal,youtube videos)，遵照此原則按步就班，可以有系統的紀錄下每一週達到的事項及進度，同時也促進專案進度更有效率的完成，同時遇到困難時也可以透過交流、尋求組員的意見，進而從中獲得自己較為弱項方面的知識，也能得到許多新奇的idea，我想這就是協同的有利之處，<strong>比起一人的閉門造車，協同才能達到更多可能。</strong></p>
-<h1>40823116每周進度</h1>
+<p><strong>影片排序程式</strong></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import os
+#sorted:排序。
+def renameFilesAndSortedByTime(dirPath):
+    #建立空串列。
+    newlist = []
+    #獲取檔名列表。
+    files = os.listdir(dirPath)
+    #獲取新增修改時間的檔名列表。
+    for j in files:
+        #獲取從1970年1月1日上午12時00分到檔案最後修改的UTC時間總共經過多少秒。
+        createTime = os.path.getmtime(dirPath + j)
+        # 將createTime中取得的秒數加入文件名稱前方，並加入串列以利排序。
+        newlist.append(str(int(createTime)) + "-" + j)
+ 
+    # 將串列進行排序
+    newlist = sorted(newlist)
+    #印出串列
+    print(newlist)
+    # range()內的數字經由len(newlist)決定
+    #len()主要用來傳回串列參數L的長度，也就是包含幾個元素。
+    for i in range(len(newlist)):
+        #newlist[i][11:]
+        #[i]的意思為串列中的第i項。
+        #[11:]是用來取得檔案名稱從第12字元開始到最後字元的檔名。
+        #使用上述兩個方法再配合迴圈可取得串列內所有檔案的舊檔名。
+        oldName = newlist[i][11:]
+ 
+        # 將秒數部分修改為序號，得到新的文件名。
+        # 一定要按照下列寫法否則後期排序更名會出現錯誤。
+        newName = newlist[i][11:]
+        if (i + 1) &lt; 10:
+            newName = '00' + str(i + 1) + newName
+        elif (i + 1) &gt; 9 and (i + 1) &lt; 100:
+            newName = '0' + str(i + 1) + newName
+        else:
+            newName = str(i + 1) + newName
+        # dirpath為目標文件資料夾。
+        # 重命名文件照修改時間加序号在前方。
+        os.rename(dirPath + oldName, dirPath + newName)
+ 
+if __name__ == '__main__':
+    renameFilesAndSortedByTime("C:/Users/Administrator/Downloads/2021-03_2a_stage1/")
+    print("rename ok!")
+    path = 'C:/Users/Administrator/Downloads/2021-03_2a_stage1/'
+    #轉入目標文件夾。
+    file=os.listdir(path)
+    print(file) #印出讀取到的檔名稱。
+    n=0 #設定初始值。
+    for i in file: #因為資料夾裡面的檔案都要重新更換名稱。
+        oldname=path+file[n] #path為路徑名稱，[n]表示第n個檔案。
+        newname=path+'cd2021_2a_'+str(n+1)+'.mp4'
+        os.rename(oldname,newname)
+        print(oldname+'&gt;'+newname) 
+        n=n+1</pre>
+<p></p>
